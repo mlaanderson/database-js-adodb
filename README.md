@@ -27,7 +27,7 @@ var adodb = require('database-js-adodb');
 ~~~~
 ### With Database-js
 ~~~~
-var Database = require('database-js');
+var Database = require('database-js2');
 
 (async () => {
     let connection, statement, rows;
@@ -46,7 +46,7 @@ var Database = require('database-js');
 ~~~~
 ### For Excel version 8
 ~~~~
-var Database = require('database-js');
+var Database = require('database-js2');
 
 (async () => {
     let connection, statement, rows;
