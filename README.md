@@ -1,5 +1,5 @@
 # database-js-adodb
-[![Build Status](https://ci.appveyor.com/api/projects/status/2acip2g9mv50lhc2?svg=true)](https://ci.appveyor.com/project/mlaanderson/database-js-adodb/settings/badges)
+[![Build Status](https://ci.appveyor.com/api/projects/status/2acip2g9mv50lhc2?svg=true)](https://ci.appveyor.com/project/mlaanderson/database-js-adodb)
 
 Database-js Wrapper for ADODB
 ## About
