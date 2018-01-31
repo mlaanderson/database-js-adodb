@@ -2,6 +2,7 @@
 [![Build Status](https://ci.appveyor.com/api/projects/status/2acip2g9mv50lhc2?svg=true)](https://ci.appveyor.com/project/mlaanderson/database-js-adodb)
 
 Database-js Wrapper for ADODB
+
 ## About
 Database-js-adodb is a wrapper around the [node-adodb](https://github.com/nuintun/node-adodb) package by nuintun. It is intended to be used with the [database-js](https://github.com/mlaanderson/database-js) package. However it can also be used in stand alone mode. The only reason to do that would be to use [Promises](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise).
 
