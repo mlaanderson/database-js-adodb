@@ -1,6 +1,6 @@
 {
   "name": "database-js-adodb",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Database-js Wrapper for ADODB",
   "main": "index.js",
   "scripts": {
