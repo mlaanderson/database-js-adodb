@@ -12,7 +12,10 @@
   },
   "keywords": [
     "database-js",
-    "adodb"
+    "adodb",
+    "sql",
+    "access",
+    "microsoft adodb"
   ],
   "author": "Michael Anderson <michael@anderson-clan.org>",
   "license": "MIT",
