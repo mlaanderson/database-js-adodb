@@ -14,7 +14,7 @@ var adodb = require('database-js-adodb');
 
 (async () => {
     let connection, rows;
-    connection = mysql.open({
+    connection = adodb.open({
         Database: 'C:\\Users\\me\\Desktop\\access_db.mdb'
     });
     
