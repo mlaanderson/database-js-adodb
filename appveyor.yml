@@ -25,6 +25,4 @@ test_script:
   - npm test
 
 # Don't actually build.
-# build: Script
-# build_script:
-#   - echo Done
+build: off
