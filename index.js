@@ -14,15 +14,7 @@ class ADODB_Promise_Connection {
      */
     query(sql) {
         var self = this;
-        return new Promise((resolve, reject) => {
-            self.__connection.query(sql)
-            .on('done', (data, message) => {
-                resolve(data, message);
-            })
-            .on('fail', (error) => {
-                reject(error);
-            });
-        });
+        return self.__connection.query(sql);
     }
 
     /**
@@ -35,15 +27,7 @@ class ADODB_Promise_Connection {
      */
     execute(sql, scalar) {
         var self = this;
-        return new Promise((resolve, reject) => {
-            self.__connection.execute(sql, scalar)
-            .on('done', (data, message) => {
-                resolve(data, message);
-            })
-            .on('fail', (error) => {
-                reject(error);
-            });
-        });
+        return self.__connection.execute(sql, scalar);
     }
 
     /**
