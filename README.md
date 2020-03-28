@@ -30,11 +30,11 @@ var adodb = require('database-js-adodb');
 ~~~~
 ### With Database-js
 ~~~~
-var Database = require('database-js2');
+var Connection = require('database-js').Connection;
 
 (async () => {
     let connection, statement, rows;
-    connection = new Database('database-js-adodb:///C:\\Users\\me\\Desktop\\access_db.mdb');
+    connection = new Connection('database-js-adodb:///C:\\Users\\me\\Desktop\\access_db.mdb');
     
     try {
         statement = await connection.prepareStatement("SELECT * FROM tablea WHERE user_name = ?");
@@ -49,11 +49,11 @@ var Database = require('database-js2');
 ~~~~
 ### For Excel version 8
 ~~~~
-var Database = require('database-js2');
+var Connection = require('database-js').Connection;
 
 (async () => {
     let connection, statement, rows;
-    connection = new Database('database-js-adodb:///C:\\Users\\me\\Desktop\\excel_file.xls?Extended Properties='Excel 8.0;HDR=Yes;IMEX=1';');
+    connection = new Connection('database-js-adodb:///C:\\Users\\me\\Desktop\\excel_file.xls?Extended Properties='Excel 8.0;HDR=Yes;IMEX=1';');
     
     try {
         statement = await connection.prepareStatement("SELECT * FROM [Sheet1$A1:C52] WHERE user_name = ?");
